@@ -6,7 +6,7 @@ ENV GOPATH /app/go
 ADD . /app/go/
 
 # build
-RUN go get github.com/shaalx/webhooks
+RUN go get github.com/toukii/webhooks
 RUN go build -o webhooks
 EXPOSE 80
 
