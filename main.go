@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/everfore/gotest/mail"
-	"github.com/shaalx/goutils"
+	"github.com/toukii/goutils"
 	"io/ioutil"
 	"net/http"
 )
